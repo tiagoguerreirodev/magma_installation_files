@@ -207,7 +207,7 @@ if [ "$MAGMA_INSTALLED" != "$SUCCESS_MESSAGE" ]; then
   rm -rf /home/$MAGMA_USER/magma
 
   echo "AGW installation is done, Run agw_post_install_ubuntu.sh install script after reboot to finish installation"
-  wget https://raw.githubusercontent.com/magma/magma/"$MAGMA_VERSION"/lte/gateway/deploy/agw_post_install_ubuntu.sh -P /root/
+  wget https://raw.githubusercontent.com/magma/magma/"$MAGMA_VERSION"/lte/gateway/deploy/agw_post_install_ubuntu.sh
 
   echo "Rebooting in 10s..."
   sleep 10
